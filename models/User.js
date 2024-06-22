@@ -3,7 +3,7 @@ import mongoose, { Types } from 'mongoose'
 const shema = new mongoose.Schema({
     avatarUser: {
         type: String,
-        default: 'http://server.korobkabel.site/avatar/default-avatar.svg'
+        default: 'http://server.korobka-grodno.site/avatar/default-avatar.svg'
     },
     role: {
         type: Types.ObjectId,

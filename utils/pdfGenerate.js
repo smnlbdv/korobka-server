@@ -22,7 +22,7 @@ export default function pdfGenerate(save, orderId) {
             if (err) {
                 reject(err);
             } else {
-                const urlRes = `http://server.korobkabel.site/pdf/check-${orderId}.pdf`;
+                const urlRes = `http://server.korobka-grodno.site/pdf/check-${orderId}.pdf`;
                 resolve({ url: urlRes, result: true });
             }
         });

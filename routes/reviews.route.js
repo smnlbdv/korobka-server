@@ -30,7 +30,7 @@ const storage = multer.diskStorage({
             const encodedFilename = iconv.encode(raw.toString('hex') + Date.now() + path.extname(file.originalname), 'win1251');
             const filename = encodedFilename.toString();
             cb(null, filename);
-            slider.push(`http://server.korobkabel.site/review/${filename}`);
+            slider.push(`http://server.korobka-grodno.site/review/${filename}`);
         });
     }
 });
